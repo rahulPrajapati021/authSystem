@@ -6,3 +6,5 @@ add -
 PORT=4001
 
 MONGODB_URL=url
+
+SECRET_KEY=
