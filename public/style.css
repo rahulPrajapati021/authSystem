@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: indigo;
+}
+
+#signup {
+    display: none;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 2vw;
+}
+.container form legend {
+    font-size: 1.4rem;
+    margin: 1vw;
+    text-align: center;
+}
+.inputField {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.inputField input {
+    padding: 10px 12px;
+    outline: none;
+    border: 1px solid grey;
+    margin: 1vw 0;
+}
+
+#logInBtn:hover, #signUpBtn:hover {
+    color: white;
+    background-color: royalblue;
+    border: 1px solid royalblue;
+    transition: .3s all ease;
+    cursor: pointer;
+}
+
+.info span {
+    color: royalblue;
+}
+
+.info span:hover {
+    color: purple;
+    cursor: pointer;
+}
+
+#signupError, #loginError {
+    background-color: rgba(230, 0, 0, .7);
+    padding: 1vw;
+    border-radius: 2px;
+    margin: 5px auto;
+    color: white;
+    text-align: center;
+    display: none;
+}

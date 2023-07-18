@@ -1,0 +1,8 @@
+in this application i want a simple page of registration and log in
+
+after successfully login or registration the app should redirect to dashboard 
+
+simply i want this to work on localsotorage
+
+after successfully log in it should lead to dashboard 
+dashboard should contain username, where you can make some notes....
